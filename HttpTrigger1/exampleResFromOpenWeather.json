@@ -1,0 +1,47 @@
+{
+    "coord": {
+        "lon": -120,
+        "lat": 55
+    },
+    "weather": [
+        {
+            "id": 600,
+            "main": "Snow",
+            "description": "light snow",
+            "icon": "13d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 268.47,
+        "feels_like": 261.06,
+        "temp_min": 268.47,
+        "temp_max": 268.47,
+        "pressure": 1004,
+        "humidity": 74,
+        "sea_level": 1004,
+        "grnd_level": 899
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 6.38,
+        "deg": 335,
+        "gust": 11.71
+    },
+    "snow": {
+        "1h": 0.13
+    },
+    "clouds": {
+        "all": 100
+    },
+    "dt": 1616969739,
+    "sys": {
+        "country": "CA",
+        "sunrise": 1616938841,
+        "sunset": 1616984937
+    },
+    "timezone": -21600,
+    "id": 5896969,
+    "name": "Beaverlodge",
+    "cod": 200
+}
