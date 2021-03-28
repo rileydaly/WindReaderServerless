@@ -30,9 +30,9 @@ module.exports = async function (context, req) {
 
 async function getJSON({lat='35.10163218697745',lon='-120.63045185072025'}={}) {
   //gets OpenWeather API
-  //api key = 4616988bca1dbae3e1ae3d0088beed35
 
-  const apiKey = '4616988bca1dbae3e1ae3d0088beed35'
+  const apiKey = process.env.OPEN_WEATHER_API_KEY
+
   try {
     const response = await got(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}`);
     console.log('res body here:', response.body);

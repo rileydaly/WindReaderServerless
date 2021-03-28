@@ -21,10 +21,10 @@ Debug: start debugging
 copy and paste these urls in chrome
 
 For wind direction:
-http://localhost:7071/api/HttpTrigger1?request_type=wind_direction&lat=55&lon=-120
+http://localhost:7071/api/HttpTrigger1?request_type=wind_direction&lat=35.101240&lon=-120.630414
 
 For wind speed:
-http://localhost:7071/api/HttpTrigger1?request_type=wind_speed&lat=55&lon=-120
+http://localhost:7071/api/HttpTrigger1?request_type=wind_speed&lat=35.101240&lon=-120.630414
 
 
 ## To publish to Azure serverless
@@ -39,4 +39,4 @@ Click yes
 
 append specific request after question mark
 
-https://windreader.azurewebsites.net/api/httptrigger1?code=kzfwziTiIZMz3T8qRl3agGzI4MDYebUt3GHifNP6j59QWi3C3a22Ww%3D%3D&request_type=wind_direction&lat=55&lon=-120
+https://windreader.azurewebsites.net/api/httptrigger1?code=kzfwziTiIZMz3T8qRl3agGzI4MDYebUt3GHifNP6j59QWi3C3a22Ww%3D%3D&request_type=wind_direction&lat=35.101240&lon=-120.630414
